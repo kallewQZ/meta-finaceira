@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard Financeiro</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+
+    <body>
+        <!-- Barra preta fixa com botão hambúrguer -->
+        <div id="hamburger-bar-wrapper">
+            <div id="sandbar-toggle" aria-label="Abrir menu de navegação">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+
+        <!-- Menu Sandbar -->
+        <nav id="main-nav">
+            <div id="close-nav">✕</div>
+            <ul>
+                <li><a href="#grafico">Gráfico</a></li>
+                <li><a href="#cards">Cards</a></li>
+                <li><a href="#metas">Metas</a></li>
+                <li><a href="#redes">Redes Sociais</a></li>
+            </ul>
+        </nav>
+
+        <!-- Seção Gráfico -->
+        <section id="grafico">
+            <h2></h2>
+            <div class="chart-container">
+                <canvas id="lineChart" width="400" height="200"></canvas>
+            </div>
+
+            <!-- Seção Cards -->
+            <section id="cards">
+                <h2>Investimento</h2>
+                <div class="card-container">
+                    <!-- 12 Cards fixos -->
+                    <div class="card">
+                        <img src="./src/img/png cartao.jpg" alt="" />
+                        <div class="info">R$ 833,33</div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/img/png euro 2.png" alt="" />
+                        <div class="info">R$ 833,33</div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/img/png casa.jpg" alt="" />
+                        <div class="info">R$ 833,33</div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/img/png euro.jpg" alt="" />
+                        <div class="info">R$ 833,33</div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/img/png tartaruga.jpg" alt="" />
+                        <div class="info">R$ 833,33</div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/img/png euro 1.jpg" alt="" />
+                        <div class="info">R$ 833,33</div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/img/png cartao.jpg" alt="" />
+                        <div class="info">R$ 833,33</div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/img/png euro 2.png" alt="" />
+                        <div class="info">R$ 833,33</div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/img/png casa.jpg" alt="" />
+                        <div class="info">R$ 833,33</div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/img/png euro.jpg" alt="" />
+                        <div class="info">R$ 833,33</div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/img/png tartaruga.jpg" alt="" />
+                        <div class="info">R$ 833,33</div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/img/png euro 1.jpg" alt="" />
+                        <div class="info">R$ 833,33</div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Seção Metas -->
+            <section id="metas">
+                <h2>Metas</h2>
+                <p>Alcance os 10 mil completando os cards!</p>
+            </section>
+
+            <!-- Seção Redes Sociais -->
+            <section id="redes">
+                <h2>Redes Sociais</h2>
+                <p>Siga-nos para mais dicas financeiras.</p>
+            </section>
+
+            <script src="./src/js/index.js"></script>
+    </body>
+
+</html>
