@@ -238,21 +238,20 @@ html {
 
 @media (max-width: 500px) {
     .card-container {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        /* duas colunas */
-        gap: 20px;
-        justify-items: center;
-        /* centraliza os cards */
+        gap: 10px;
+        padding: 0 10px;
     }
 
     .card {
-        width: 200px;
-        height: 150px;
+        width: 100%;
+        /* ✅ Largura flexível */
+        height: auto;
     }
 
     .card img {
-        max-width: 200px;
+        width: 100%;
+        /* ✅ Imagem se adapta ao card */
         height: 100px;
         object-fit: cover;
     }
@@ -263,5 +262,7 @@ html {
         align-items: center;
         justify-content: center;
         font-size: 10px;
+        width: 100%;
     }
+}
 }
