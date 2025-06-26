@@ -235,7 +235,6 @@ canvas#lineChart {
 html {
     scroll-behavior: smooth;
 }
-
 @media (max-width: 500px) {
     .card-container {
         grid-template-columns: repeat(2, 1fr);
@@ -265,4 +264,4 @@ html {
         width: 100%;
     }
 }
-}
+
